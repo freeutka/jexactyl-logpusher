@@ -88,13 +88,6 @@
                                     <p class="text-muted"><small>Select the default log service to be used for logging operations.</small></p>
                                 </div>
                             </div>
-                            <div class="form-group col-md-4">
-                                <label class="control-label">Client Background</label>
-                                <div>
-                                    <input type="text" class="form-control" name="theme:user:background" value="{{ old('theme:user:background', config('theme.user.background')) }}" />
-                                    <p class="text-muted"><small>If you enter a URL here, the client pages will have your image as the page background.</small></p>
-                                </div>
-                            </div>
                         </div>
                     </div>
                 </div>
